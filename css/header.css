@@ -1,0 +1,153 @@
+		.header>.w1200 {
+				position: relative;
+			}
+
+			.header>.w1200>div {
+				/* height: 42px; */
+				float: left;
+			}
+
+			.txlogo {
+				width: 150px;
+				z-index: 10 !important;
+
+			}
+
+			.cf {
+				width: 766px;
+			}
+
+			.cf-mouse {
+				width: 230px;
+				float: left;
+			}
+
+			.cf-big {
+				width: 1200px;
+				height: 185px;
+				position: absolute;
+				top: 0;
+				left: 0;
+				z-index: 1;
+				display: none;
+			}
+
+			.cf:hover .cf-big {
+				display: block;
+			}
+
+			.fcm {
+				display: block;
+				float: left;
+				width: 142px;
+				margin-top: 7px;
+			}
+
+			.fcm-logo {
+				display: block;
+				float: left;
+				width: 30px;
+				height: 30px;
+				background: url(../imges/防沉迷logo.png);
+				background-position: -30px;
+				overflow: hidden;
+			}
+
+			.fcm p {
+				float: left;
+				line-height: 30px;
+				font-size: 14px;
+				font-weight: 400;
+				color: #464646;
+				cursor: pointer;
+				user-select: none;
+			}
+			.fcm p:hover{
+				color: #ff4e00;
+			}
+			.rinkbang {
+				display: block;
+				float: left;
+				margin-top: 7px;
+			}
+			.rinkbang-logo {
+				display: block;
+				float: right;
+				width: 30px;
+				height: 30px;
+				background: url(../imges/防沉迷logo.png);
+				overflow: hidden;
+				transform: rotate(90deg);
+				opacity: .1;
+			}
+			.openrink{
+
+			}
+			.rinkbang p {
+				display: block;
+				float: left;
+				line-height: 30px;
+				font-size: 14px;
+				font-weight: 400;
+				color: #464646;
+				cursor: pointer;
+				user-select: none;
+			}
+			.rink{
+				width: 707px;
+				height: 580px;
+				padding-left: 30px;
+				background-color: #fafafa;
+				position: absolute;
+				right: 0;
+				top: 42px;
+				display: none;
+			}
+			.rink>div{
+				float: left;
+			}
+			.rink h2{
+				display: block;
+				float: left;
+				width: 194px;
+				height: 40px;
+				color: #333;
+				font-size: 14px;
+				line-height: 40px;
+				font-weight: 700;
+			}
+			.rink-tatle>div{
+				display: block;
+				float: right;
+				width: 30px;
+				height: 30px;
+				margin-top: 5px;
+				background: url(../imges/防沉迷logo.png);
+				overflow: hidden;
+				opacity: .1;
+			}
+			.rink-front ,.rink-behind{
+				float: left;
+				color: #fff;
+				width: 16px;
+				height: 16px;
+				text-align: center;
+				line-height: 16px;
+				margin-right: 10px;
+			}
+			.rink-front{
+				background-color: #c62828;
+			}
+			.rink-behind{
+				background-color: #ccc;
+			}
+			.rink li{
+				font-size: 12px;
+				line-height: 1.5;
+				color: #333;
+				padding: 0 20px 30px 0;
+			}
+			.openrink:hover .rink{
+				display: block;
+				z-index: 10;
+			}

@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;cursor: pointer;
+}
+
+li {
+	list-style: none;
+}
+
+.clear::after {
+	display: block;
+	content: "";
+	clear: both;
+}
+
+.w1200 {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.w1300 {
+	width: 1300px;
+	margin: 0 auto;
+}
+
+.bgc {
+	background: url(../imges/背景.jpg);
+	z-index: -1;
+	width: 1920px;
+	height: 1100px;
+}

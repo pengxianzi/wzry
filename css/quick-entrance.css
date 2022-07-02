@@ -1,0 +1,19 @@
+.main {
+	position: absolute;
+	top: 480px;
+	width: 1300px;
+	margin: 0 auto;
+}
+
+
+.quick-entrance {
+	display: flex;
+	justify-content: space-between;
+	height: 134px;
+}
+
+.quick-entrance a {
+	display: block;
+	width: 291px;
+	float: left;
+}

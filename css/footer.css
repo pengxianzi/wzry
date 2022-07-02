@@ -1,0 +1,99 @@
+.footer {
+	background-image: url(../imges/footer.jpg);
+	height: 362px;
+}
+
+.foot-lefts a {
+	display: block;
+	float: left;
+}
+
+.foot {
+	position: relative;
+	height: 256px;
+	padding-top: 80px;
+}
+
+.foot-cpright {
+	height: 176px;
+}
+
+.foot-lefts {
+	height: 78px;
+}
+
+.tx {
+	width: 285px;
+	height: 64px;
+	background-image: url(../imges/TM.png);
+}
+
+.tm {
+	width: 70px;
+	height: 64px;
+	background-image: url(../imges/TM.png);
+	background-position: -285px 0;
+}
+
+
+
+.foot-bottom {
+	width: 508px;
+	height: 86px;
+	position: absolute;
+	left: 0;
+	top: 170px;
+	padding-top: 0;
+	width: 508px;
+	font-size: 12px;
+	color: #666;
+}
+
+.foot-bottom p {
+	font-size: 12px;
+}
+
+.foot-bottom p em {
+	font-style: normal;
+	margin-right: 9px;
+	color: #6d6d6d;
+}
+
+.intro {
+	margin-top: 6px;
+	font-size: 12px;
+	color: #666;
+}
+
+.report {
+	position: absolute;
+	left: 550px;
+	top: 106px;
+	width: 300px;
+	font-size: 12px;
+}
+
+.foot-text {
+	width: 650px;
+	height: 86px;
+	position: absolute;
+	top: 168px;
+	right: 0;
+}
+
+.foot-text li {
+	display: block;
+	width: 650px;
+	height: 20px;
+	font-size: 12px;
+	color: #646467;
+}
+
+.text1 {
+	width: 686px !important;
+}
+
+.text2 {
+	display: block;
+	margin-top: 6px;
+}
